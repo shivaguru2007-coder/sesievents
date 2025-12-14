@@ -9,8 +9,8 @@ const eventsData = [
     description: "Buissness Monopoly Event. A highly successful business and finance simulation event that challenged participants' strategic planning and resource management skills over a full day of intense competition.",
     category: "FUN-BUISSNESS EVENT",
     images: [
-      "/gridgrab1.jpg",
-      "/gridgrab2.jpg"
+      "./assets/gridgrab1.jpg",
+      "./assets/gridgrab2.jpg"
     ],
   },
   {
@@ -21,8 +21,8 @@ const eventsData = [
     description: "Hands-on session covering advanced Twin Control Studio App. Bring your laptops and be ready to code! This is a multi-hour session designed for intermediate to advanced developers.",
     category: "workshop",
     images: [
-      "/twin1.jpg",
-      "/twin2.jpg"
+      "./assets/twin1.jpg",
+      "./assets/twin2.jpg"
     ],
   },
   {
@@ -32,10 +32,9 @@ const eventsData = [
     end: "2025-09-22T12:00:00",
     description: "A Electronic Based Hackathon focusing on innovative energy solutions. Teams will compete to develop prototypes that address real-world energy challenges. Prizes for best innovation, sustainability, and presentation.",
     category: "Hackathon",
-    images: ["/enervision1.jpg",
-      "/enervision2.jpg"
-
-
+    images: [
+      "./assets/enervision1.jpg",
+      "./assets/enervision2.jpg"
     ],
   },
   {
@@ -45,7 +44,7 @@ const eventsData = [
     end: "2025-12-20T23:00:00",
     description: "Car Racing Event powered entirely by Solar Energy. Teams design, build, and race solar-powered vehicles in a thrilling competition that tests speed, efficiency, and engineering prowess.",
     category: "Solar Race Event",
-    images: ["/solarshowdown.png"],
+    images: ["./assets/solarshowdown.png"],
   },
 
   {
@@ -55,7 +54,7 @@ const eventsData = [
     end: "2025-10-25T24:00:00",
     description: "Solar Based Quiz Competition. A two-day quiz competition focusing on solar energy, sustainability, and environmental science. Teams will answer questions, solve puzzles, and complete challenges to win exciting prizes.",
     category: "Quiz Competition",
-    images: ["/curagen1.jpg", "/curagen2.jpg"],
+    images: ["./assets/curagen1.jpg", "./assets/curagen2.jpg"],
   },
 
   {
@@ -65,7 +64,7 @@ const eventsData = [
     end: "2025-02-03T16:00:00",
     description: "solar based bidaton event. A high-energy hackathon where participants develop innovative solar-powered solutions to real-world problems. Teams will brainstorm, prototype, and present their ideas to a panel of expert judges.",
     category: "BIDATON EVENT",
-    images: ["/bidaton1.jpg", "/bidaton2.jpg"],
+    images: ["./assets/bidaton1.jpg", "./assets/bidaton2.jpg"],
   },
 
   {
@@ -75,7 +74,7 @@ const eventsData = [
     end: "2025-03-28T19:30:00",
     description: "embedded c with ai codethon event. A coding marathon focused on embedded C programming with AI applications. Participants will tackle a series of challenges that test their coding skills, problem-solving abilities, and creativity in integrating AI with embedded systems.",
     category: "coding event",
-    images: ["/codethon1.jpg", "/codethon2.jpg"],
+    images: ["./assets/codethon1.jpg", "./assets/codethon2.jpg"],
   },
 
 
@@ -87,7 +86,7 @@ const eventsData = [
     end: "2025-04-04T13:00:00",
     description: "guest lecture on generative ai and its applications in motion graphics. An insightful session led by industry experts exploring the transformative impact of generative AI on motion graphics design and production.",
     category: "Guest Lecture",
-    images: ["/gen ai1.png", "/gen ai2.jpg"],
+    images: ["./assets/gen ai1.png", "./assets/gen ai2.jpg"],
   },
 
 
@@ -98,7 +97,7 @@ const eventsData = [
     end: "2025-04-04T23:00:00",
     description: "CARRER CANVAS IN SOLAR ENERGY INDUSTRY. A comprehensive workshop designed to guide participants through the various career opportunities within the solar energy sector, featuring expert talks, resume building sessions, and networking opportunities.",
     category: "online workshop",
-    images: ["/career canvas1.png", "/career canvas2.jpg"],
+    images: ["./assets/career canvas1.png", "./assets/career canvas2.jpg"],
   },
 
   {
@@ -108,7 +107,7 @@ const eventsData = [
     end: "2025-02-27T19:00:00",
     description: "SOlar Based Comic Creation Workshop. A creative workshop where participants learn the art of comic creation with a focus on solar energy themes, guided by professional comic artists and writers.",
     category: "comic workshop",
-    images: ["/comic1.jpg"],
+    images: ["./assets/comic1.jpg"],
   },
 
   {
@@ -118,7 +117,7 @@ const eventsData = [
     end: "2025-05-27T22:00:00",
     description: "solar studio poster making in figma. A hands-on workshop teaching participants how to create compelling posters using Figma, centered around solar energy awareness and advocacy.",
     category: "online poster making in figma",
-    images: ["/solar studio1.jpg", "/solar studio2.jpg"],
+    images: ["./assets/solar studio1.jpg", "./assets/solar studio2.jpg"],
   },
 
   {
@@ -128,7 +127,7 @@ const eventsData = [
     end: "2024-10-07T12:00:00",
     description: "sOLAR BASED GUEST LECTURE ON SUSTAINABLE DEVELOPMENT GOALS. An engaging talk focusing on the role of solar energy in achieving the United Nations Sustainable Development Goals (SDGs), featuring insights from leading experts in the field.",
     category: "guest lecture",
-    images: ["/sdg1.PNg", "/sdg2.jpg"],
+    images: ["./assets/sdg1.png", "./assets/sdg2.jpg"],
   },
 
   {
@@ -138,7 +137,7 @@ const eventsData = [
     end: "2024-09-15T13:00:00",
     description: "ENGINEERING DAY COLLAB WITRH VIT RATIONALS. A collaborative event celebrating engineering innovations and achievements, featuring guest lectures, project showcases, and networking opportunities with VIT Rationals.",
     category: "vit ratio",
-    images: ["/engineers day1.jpg", "/engineers day2.jpg"],
+    images: ["./assets/engineers day1.jpg", "./assets/engineers day2.jpg"],
   },
 
   {
@@ -148,7 +147,7 @@ const eventsData = [
     end: "2024-08-07T15:00:00",
     description: "CASA EVENT GUEST LECTURE ON SOLAR BASED MEDICAL TECHNOLOGIES. An informative session exploring the advancements in solar-powered medical technologies and their impact on healthcare delivery in remote and underserved areas.",
     category: "GUEST LECTURE",
-    images: ["/casa1.jpg"],
+    images: ["./assets/casa1.jpg"],
   },
 
   {
@@ -158,7 +157,7 @@ const eventsData = [
     end: "2025-10-15T12:00:00",
     description: "CASA BREAKING THE SILENCE GUEST LECTURE ON SOLAR BASED MEDICAL TECHNOLOGIES. An informative session exploring the advancements in solar-powered medical technologies and their impact on healthcare delivery in remote and underserved areas.",
     category: "GUEST LECTURE",
-    images: ["/CASA2.jpg"],
+    images: ["./assets/CASA2.jpg"],
   },
 
 

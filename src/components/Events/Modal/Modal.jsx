@@ -81,7 +81,8 @@ const Modal = ({ event, onClose, scrambleProps }) => {
                     <div className="gallery-main-image-container">
                         <img
                             src={currentImageUrl}
-                            alt={`${event.title} image ${currentImageIndex + 1}`}
+                            //alt={`${event.title} image ${currentImageIndex + 1}`}
+                            alt={`${event.title} ${currentImageIndex + 1}`}
 
                             className={`gallery-main-image ${isFading ? 'fading-out' : ''}`}
                         />
